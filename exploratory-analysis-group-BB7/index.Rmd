@@ -1,0 +1,211 @@
+---
+title: "Exploratory Analysis"
+output: html_document
+---
+
+## Mental Health During the COVID-19 Pandemic
+
+### Authors
+
+Sabrina Lin, Lily He, Niki Ishisaki, and Vy Nguyen 
+
+### Date
+
+2/21/22, Winter Quarter 2022
+
+### Abstract
+Our main question is: "Are certain ethnicities, gender identities, sexual orientations, educational-levels, disabilities, or ages more impacted by the effects of COVID-19 as seen in their mental health? If so, why?" To address this concern, we plan to analyze the correlation between mental health disorders during the COVID-19 pandemic and various social identities. This is important because analyzing the data is the first step in understanding the inequities in mental health care and moving towards more access to resources for marginalized communities.   
+
+### Keywords
+Mental Health, COVID-19 Pandemic, Anxiety, Depression, Social Identities 
+
+### Introduction  
+The COVID-19 pandemic has been ongoing for the past 2 years with over a million cases worldwide. Because of this airborne disease, many governors in the U.S chose to lockdown public areas, enforce social distancing, and implement mask mandates. Those with more access to healthcare resources and health education were able to access COVID-19 testing, vaccination sites, and other resources relating to the pandemic. Marginalized communities are more likely to live in larger multigenerational households, be essential workers, and endure other barriers preventing them from following CDC guidelines. As a result of social distancing and isolation, many datasets have shown a spike in anxiety and depression symptoms among the population in the last two years. Our question lies around whether or not there is a correlation between the increase in mental health disorders and ethnicities, gender identities, sexual orientations, educational-levels, disabilities, and ages. 
+
+More specifically, our research questions include:   
+  1. Are certain ethnicities, gender identities, sexual orientations, educational-levels, disabilities, or ages more impacted by the effects of COVID-19 as seen in their mental health? If so, why?   
+  2. Is the percent of depressive or anxiety symptoms different among populations after vaccine distribution? If so, why?   
+  3. Why is mental health a big issue that needs to be addressed, especially during the pandemic? 
+
+We are interested in the research questions above because of the health inequities that have magnified from the COVID-19 pandemic, making marginalized communities more susceptible to the effects of COVID-19. It is important for the general public to know these trends in order for them to act on it to promote equitable change for vulnerable populations. More specifically, it is important for advocates, change-makers, and susceptible communities like college students and marginalized racial groups to know this information, since it provides the first steps to addressing the systemic issue seen in mental health trends during the pandemic. 
+
+### Related Work  
+The spread of COVID-19 quickly turned into a worldwide pandemic and, as a result, America was required to take immediate action and instill a nationwide lockdown. The pandemic challenged many by confining them, but also led others to continue essential work during these dangerous times. With these new living conditions, we wanted to understand if there was a correlation between the rise of mental health disorders, like anxiety and depression, during the pandemic and social identities like race, sexual orientation, and educational level. In relation to our topic, an article was published by [Forbes](https://www.forbes.com/sites/williamhaseltine/2021/04/29/understanding-the-neurological-and-psychological-effects-of-covid-19/?sh=3a2b13672090) in which William Haseltine emphasizes the lesser known side effects of COVID-19 itself. These include mental health struggles such as PTSD, depression, anxiety, and more rarely brain fog.  
+
+Additionally, [KFF](https://www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/)  published a research article observing the negative impacts of mental health trends in adults during the pandemic. In their article, the data compares household survey results of adults who reported symptoms of mental illnesses such as depression before and after the pandemic. In contrast, a case study observed by the [Department of Biostatistics and Health Information](https://pubmed.ncbi.nlm.nih.gov/34798148/) in the UK looked at the long term effects of COVID-19. From their observations, they were able to conclude that the disease itself did not contribute to increasing psychological symptoms. These related works portray various research and results on how COVID-19 affects individuals, as well as how the pandemic has raised psychological symptoms and concerns.  
+
+### The Dataset
+Our dataset: [Indicators of Anxiety or Depression Based on Reported Frequency of Symptoms During Last 7 Days](https://catalog.data.gov/dataset/indicators-of-anxiety-or-depression-based-on-reported-frequency-of-symptoms-during-last-7-)
+
+The data is found in the open data source from the U.S. Government and is collected by the U.S. Census Bureau. It was conducted by an internet questionnaire called [Household Pulse Survey](https://www.census.gov/programs-surveys/household-pulse-survey/data.html).    
+
+The questionnaire focuses on the pandemic's impact on employment status, consumer spending, food security, housing, education disruptions, and dimensions of physical and mental health. This particular dataset centers on psychological wellness, and contains 14 observations and 9135 features. It captures a subset of metadata relating to the frequency of anxiety and depression symptoms under questions on mental wellness.   
+
+The U.S. Census Bureau sent invitations to the survey by email and text message. For households with multiple email addresses or cell phone numbers, the U.S. Census Bureau sent invitations randomly, and they gathered only one response for each household.    
+
+The purpose of the data is to measure the impacts of COVID-19 for American households weekly and to provide timely data aiding the recovery of the pandemic.   
+
+However, there are still some problems that this dataset might not address in the dataset. People who cannot understand English might ignore the email and text message, causing a lack of representation of certain groups of people in the data, particularly people of color. In general, stigma on mental health or cultural differences might lead to an underreporting of anxiety or depressive symptoms for certain respondents. Moreover, the random collection of responses in multi-resident households excludes incidences of domestic violence, and the dataset might not collect responses of victims of domestic violence. It would not gather data for homes with multiple residents of diverse social identities. It also neglects people who lack internet or proper electronic devices for receiving survey invitations, which would hinder people with lower socioeconomic status from filling out the survey and getting counted in the data.   
+
+The survey is designed to be short and covers a broader range of questions, thus making the dataset lack intersectionality. It was not inclusive in determining respondents’ sexual orientations or race in terms of categorizing. As mentioned above, the dataset does not represent oppressed groups who do not have access to the survey invitation.   
+
+
+### Implications
+Assuming we answer our research questions, possible implications for technologists could be implementing apps or websites to make telehealth more accessible for marginalized communities, allowing for greater access to one-on-one interactions with a therapist without increasing COVID-19 exposure with in-person contact.   
+
+Possible implications for designers could be designing COVID-19 health education resources (for example, infographics, posters, etc) intended to reach marginalized communities to improve their mental health knowledge and health outcomes. The designers could include some information from our data analysis to inform audiences about the associations between mental health during the pandemic and social identities, and provide resources for how to go about getting the mental health care they need. Another implication for designers could be designing more accessible mental health clinics in areas with higher populations of underserved communities in hopes of improving mental health outcomes and providing much-needed resources.   
+
+Possible implications for policymakers could be passing policies to expand insurance coverage to make it more accessible to marginalized communities. Health insurance is one of the barriers in healthcare access, so removing this barrier could help marginalized communities improve their mental health. Promoting mental health education in communities will destigmatize help-seeking behavior in getting the professional help they need.   
+
+### Limitations & Challenges
+Some of the limitations we might need to address with our project are the missing or generalized voices from the dataset that may not lead to inclusive results in our ultimate analysis. The main goal of this project is to analyze whether or not marginalized social identities are more likely to be affected by mental health disorders during the COVID-19 pandemic, but not all marginalized social identities are represented well in the data. For example, gay/lesbian, straight, and bisexual are the only sexual orientations considered in the dataset, so we will not be able to discuss mental health percent values of other sexual orientations like queer, pansexual, and asexual in our analysis and conclusions. Additionally, in the race category, there is a subcategory of “Non-hispanic, other races and mixed races,” which generalizes the complexities of race and condenses it into one category, skewing values in the dataset and thus, skewing our perceptions and analysis of the data. We can only make conclusions about what is presented in the data, and the data is flawed and biased. It is important to acknowledge these challenges and limitations to the dataset and our project in order to understand the possible biases seen in our results.   
+
+### Summary Information
+
+``` {r, echo = FALSE, include = FALSE, code = readLines("Summary Information.R"), code = readLines("Aggregate Table Script.R")}
+
+source("Summary Information.R")
+
+```
+
+``` {r, include=FALSE}
+highest_max_avg_race_2020 <- data2020 %>% 
+  filter(Group == 'By Race/Hispanic ethnicity') %>% 
+  group_by(Subgroup) %>% 
+  summarize(avg_race_2020 = mean(Value, na.rm = TRUE))%>% 
+  filter(avg_race_2020 == max(avg_race_2020, na.rm = TRUE)) %>% 
+  pull(avg_race_2020)
+
+highest_max_avg_race_2020 = round(highest_max_avg_race_2020, 2)
+
+lowest_min_avg_race_2022 <- data2022 %>% 
+  filter(Group == 'By Race/Hispanic ethnicity') %>% 
+  group_by(Subgroup) %>% 
+  summarize(avg_race_2022 = mean(Value, na.rm = TRUE))%>% 
+  filter(avg_race_2022 == min(avg_race_2022, na.rm = TRUE)) %>% 
+  pull(avg_race_2022)
+
+lowest_min_avg_race_2022 = round(lowest_min_avg_race_2022, 2)
+
+highest_max_avg_age_2020 <- data2020 %>% 
+  filter(Group == 'By Age') %>% 
+  group_by(Subgroup) %>% 
+  summarize(avg_age_2020 = mean(Value, na.rm = TRUE))%>% 
+  filter(avg_age_2020 == max(avg_age_2020, na.rm = TRUE)) %>% 
+  pull(avg_age_2020)
+
+highest_max_avg_age_2020 = round(highest_max_avg_age_2020, 2)
+
+lowest_min_avg_age_2022 <- data2022 %>% 
+  filter(Group == 'By Age') %>% 
+  group_by(Subgroup) %>% 
+  summarize(avg_age_2022 = mean(Value, na.rm = TRUE))%>% 
+  filter(avg_age_2022 == min(avg_age_2022, na.rm = TRUE)) %>% 
+  pull(avg_age_2022)
+
+lowest_min_avg_age_2022 = round(lowest_min_avg_age_2022, 2)
+
+highest_max_avg_edu_2020 <- data2020 %>% 
+  filter(Group == 'By Education') %>% 
+  group_by(Subgroup) %>% 
+  summarize(avg_edu_2020 = mean(Value, na.rm = TRUE))%>% 
+  filter(avg_edu_2020 == max(avg_edu_2020, na.rm = TRUE)) %>% 
+  pull(avg_edu_2020)
+
+highest_max_avg_edu_2020 = round(highest_max_avg_edu_2020, 2)
+
+if(knitr::is_latex_output()) paste("\\textcolor{blue}{\\scriptsize", var, "}") else var
+
+```
+
+  As stated in previous sections of the report, our team is interested in learning about mental health trends among marginalized communities during the COVID-19 pandemic. The original dataset provided information on the percentage of populations with symptoms of anxiety and depression, and we used the data to calculate the average percent of symptoms each year for each subgroup. We then used the data to calculate maximum and minimum values of percent mental health symptoms across all years for some of the subgroups. One main social identity group we looked at was race, where the highest average percent mental health symptoms was **`r highest_max_avg_race_2020`** (Non-Hispanic, other races and multiple races) and the lowest average percent was **`r lowest_min_avg_race_2022`** (Non-Hispanic Asian, single race). Another main social identity group we looked at was age, where the highest percentage was **`r highest_max_avg_age_2020`** (18-29 years old) and the lowest was **`r lowest_min_avg_age_2022`** (80 years old and above). Lastly, we looked at the maximum percentage for education, which was **`r highest_max_avg_edu_2020`** (less than a high school diploma). 
+  These values are important because it shows us the differences between mental health status among different social identities, and could reveal systemic inequities related to these discrepancies in mental health. 
+
+
+### Table
+
+``` {r, echo = FALSE, message = FALSE}
+
+source("Aggregate Table Script.R")
+kable(final_table) %>% kable_styling(bootstrap_options = "striped", full_width = FALSE)
+
+```
+
+  In the table, we decided to include group, subgroup, average percent mental health symptoms (aka "Value") of a certain subgroup for a certain year, and year. There were several columns that displayed information about periods of time in the original data, but we thought that was unnecessary and confusing for what we wanted to do with the data so we removed it for the aggregate table (for example, phases is not something everyone knows, so it would be easier and more understandable to leave it out and use year instead). The aggregate table reveals information about the percent of people with symptoms of anxiety or depression in each subgroup and how they compare to each other. This would tell us which social identities/communities are more impacted by the COVID-19 pandemic, with evidence seen in their mental health data. 
+
+### Chart 1 - Race and Mental Health 
+
+```{r, echo = FALSE, include = FALSE, code = readLines("chart1.R")}
+```
+
+``` {r, echo = FALSE}
+
+
+chart1_data <- final_table %>% filter(Group == "By Race/Hispanic ethnicity") 
+
+library(ggplot2)
+custom_colors <- c("#afbcde", "#b3d6e6", "#b3a8e0", "#f7d1ad", "#a7d6c8")
+                    
+# Chart 1 compares the symptom levels by race during different phases of the pandemic.
+
+ggplot(chart1_data) +
+  geom_col(aes(x = year, y = avg, fill = Subgroup), position = "dodge") +
+  labs(title = "Mental Health by Race During COVID-19 (2020-2021)", x = "Year of the Pandemic", y = "Avg % of race with mental health symptoms", fill = "Race") + 
+  scale_fill_manual(values = custom_colors) 
+```
+
+  The **purpose** of Chart 1 was to show and understand how the dominant racial group's mental health symptoms compare to other racial groups' symptoms across different years of the pandemic, and if anything significantly changed over time. We chose a bar chart to show this data because we wanted to compare a continuous variable (percent of anxiety or depression symptoms or "Value") to a categorical variable (years of the pandemic).
+  
+  The information in the data visualization offered several **insights**. One is that "Non-Hispanic Asian" and "Non-Hispanic White racial groups" have the lowest percent of mental health symptoms across all years of the pandemic. The data also shows that "Non-Hispanic, other races and multiple races" have the highest percent of mental health symptoms across all years of the pandemic. It is important to note that stigmatization of mental health is prevalent among Asian Americans, which could lead to reduced self-reporting of symptoms in that specific population. There is also ambiguity in the "Non-Hispanic, other races and multiple races" category, which could lead to skewed results. 
+
+### Chart 2 - Age and Mental Health 
+
+```{r, echo = FALSE, include = FALSE, code = readLines("Chart 2.R")}
+```
+``` {r, echo = FALSE}
+chart2.data <- full_table %>% filter(Group == "By Age") %>% filter(Year == "2021")
+
+library(ggplot2)
+
+ggplot(chart2.data, mapping = aes(x = Subgroup, y = avg, group = 1)) +
+  geom_point() + geom_line() +
+  labs(
+    title = " Mental Health by Age During COVID-19 (2021)", x = "Ages", y = "Avg % of age group with mental health symptoms")
+```
+
+  The **purpose** of Chart 2 was to show and understand how mental health symptoms vary by age during 2021, the first full year of the COVID-19 pandemic in the US. We chose a line chart to visualize this data because we wanted to see if there was a trend of mental health symptoms across different age groups.
+  
+  The information in the data visualization offered several **insights**. One is that there was a clear decline in mental health symptoms from the "18-29 years" age group to the "80 years and above" age group. Younger people tend to have the highest percentage of mental health symptoms and older people tend to have the lowest percentage of mental health symptoms. This shows that pandemic-related stress and depression affects younger people more, possibly due to the large disruption it has on social interactions, work, and school. 
+
+### Chart 3 - Educational Status and Mental Health 
+
+```{r, echo = FALSE, include = FALSE, code = readLines("Chart_3.R")}
+```
+``` {r, echo = FALSE}
+chart3.data <- full_table %>% filter(Group == "By Education")
+library(ggplot2)
+
+ggplot(chart3.data) + 
+  geom_point(mapping = aes(x = Subgroup, y = avg, color = Year)) +
+  scale_fill_brewer(palette = "Set3") +
+  labs( 
+    title = "Mental Health within Education Levels During COVID-19 (2020-2022)", x = "Education Level", y= "Avg % of educational group with mental health symptoms") + 
+  scale_x_discrete( limits = c("Less than a high school diploma", "High school diploma or GED", "Some college/Associate's degree", "Bachelor's degree or higher"))
+```
+
+  The **purpose** of Chart 3 was to show and understand how educational level relates to mental health symptoms during the COVID-19 pandemic. We chose a color-coded scatterplot to visualize this data because we wanted to see if there was a trend of mental health symptoms across different age groups, as well as distinguish between the different years of the pandemic for further analysis. The four main educational levels represented in the graph are (1) Less than a high school diploma, (2) High school dimploma or GED, (3) Some college/Associate's degree, and (4) Bachelor's degree or higher. 
+  
+  The information in the data visualization offered interesting and surprising **insights**. One is that there was a general decrease in mental health symptoms with an increase in educational status, although it seems there is not a strong correlation between mental health symptoms and educational level. 20-28% of people who earned their Bachelor's degree or higher reported having mental health symptoms and 28-40% of people who earned less than a high school diploma reported having mental health symptoms. Something we found surprising was that people with some college or an Associate's degree tended to have higher percent symptoms than people who earned a high school diploma or GED. 
+  
+### Bibliography   
+
+Bourmistrova NW; Solomon T; Braude P; Strawbridge R; Carter B;. (n.d.). Long-term effects of COVID-19 on mental health: A systematic review. Retrieved from (https://pubmed.ncbi.nlm.nih.gov/34798148/)   
+
+Bureau, U. C. (2022, January 13). Household Pulse Survey Data Tables. Retrieved from (https://www.census.gov/programs-surveys/household-pulse-survey/data.html)   
+
+Haseltine, W. A. (2021, December 10). Understanding The Neurological And Psychological Effects Of Covid-19. Retrieved from (https://www.forbes.com/sites/williamhaseltine/2021/04/29/understanding-the-neurological-and-psychological-effects-of-covid-19/?sh=3a2b13672090)  
+
+Mental Health - Household Pulse Survey - COVID-19. (2022, January 19). Retrieved from (https://www.cdc.gov/nchs/covid19/pulse/mental-health.htm)   
+
+Nirmita Panchal, R. K., & 2021, F. (2021, July 20). The Implications of COVID-19 for Mental Health and Substance Use. Retrieved from (https://www.kff.org/coronavirus-covid-19/issue-brief/the-implications-of-covid-19-for-mental-health-and-substance-use/)   
+
